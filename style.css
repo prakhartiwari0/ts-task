@@ -1,0 +1,45 @@
+
+
+main{
+  height:80vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.infoSpan{
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.button{
+  font-size:2rem;
+  border:none;
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.button:hover{
+  filter: brightness(1.2);
+  transform: scale(.9);
+}
+
+.button[data-color="1"]{
+  
+  background-color: #007acc;
+  color: white;
+}
+
+.button[data-color="2"]{
+  
+  background-color: #9140e3;
+  color: white;
+}
+
+.button[data-color="3"]{
+  
+  background-color: #e3404a;
+  color: white;
+}
+
